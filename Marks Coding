@@ -12,7 +12,7 @@ public class Marks {
 		System.out.println("Please enter your mark for Mathematics :");
 		marksB = sc.nextInt();
 		
-		if ((marksA>50) && (marksB>50))
+		if ((marksA>=50) && (marksB>=50))
 			System.out.println("Passed both subject");
 		else if((marksA<50) && (marksB>=50))
 			System.out.println("Math passed Science failed");
