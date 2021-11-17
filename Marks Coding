@@ -1,0 +1,52 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Marks {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int marksA , marksB;
+		
+		System.out.println("Please enter your mark for Science : ");
+		marksA = sc.nextInt();
+		System.out.println("Please enter your mark for Mathematics :");
+		marksB = sc.nextInt();
+		
+		if ((marksA>50) && (marksB>50))
+			System.out.println("Passed both subject");
+		else if((marksA<50) && (marksB>=50))
+			System.out.println("Math passed Science failed");
+		else if((marksA>=50) && (marksB<50))
+			System.out.println("Science passed Mathematics failed");
+		else 
+			System.out.println("Failed both subject");
+		
+		if (marksA>marksB)
+			System.out.println("Science is higher than Math");
+		else if(marksA==marksB)
+			System.out.println("Both marks are same");
+		else
+			System.out.println("Mathematics is higher than science");
+		
+		int average = (marksA + marksB)/2;
+		char grade;
+		
+		if ((average>=80) && (average<=100)){
+			grade='A';
+			System.out.println("Your grade is : " + grade);
+		}
+		else if ((average>=60) && (average<=79)) {
+			grade='B';
+			System.out.println("Your grade is : " + grade);
+		}
+		else if ((average>=50) && (average<=59)) {
+			grade='C';
+			System.out.println("Your grade is : " + grade);
+		}
+		else {
+			grade='F';
+			System.out.println("Your grade is : " + grade + " and please try again for the next exam"); 
+		}
+		
+	}
+}
