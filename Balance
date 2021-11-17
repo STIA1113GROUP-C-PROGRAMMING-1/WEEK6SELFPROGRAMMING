@@ -1,0 +1,26 @@
+package selfProgramming;
+
+public class NewBalance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double amount=500.0;
+		double balance=1500;
+		
+		if((amount<=1000.0) && (amount<=balance)) 
+			balance=balance-amount;
+			System.out.println("1. Acct new balance is : " + balance);
+			
+			if((amount<=1000.0) && (amount<=balance)){
+				balance=balance-amount;
+				System.out.println("2. Acct new balance is : " + balance);
+			}
+			
+			if((amount <=1000.0) && (amount<=balance)) {
+				balance=balance+500.0;
+				System.out.println("3. Acct new balance is : " + balance);
+			}
+
+	}
+
+}
