@@ -1,0 +1,35 @@
+Output 1
+Please enter your mark for Science : 
+50
+Please enter your mark for Mathematics :
+50
+Passed both subject
+Both marks are same
+Your grade is : C
+
+Output 2
+Please enter your mark for Science : 
+40
+Please enter your mark for Mathematics :
+90
+Math passed Science failed
+Mathematics is higher than science
+Your grade is : B
+
+Output 3
+Please enter your mark for Science : 
+90
+Please enter your mark for Mathematics :
+45
+Science passed Mathematics failed
+Science is higher than Math
+Your grade is : B
+
+Output 4
+Please enter your mark for Science : 
+40
+Please enter your mark for Mathematics :
+39
+Failed both subject
+Science is higher than Math
+Your grade is : F and please try again for the next exam
