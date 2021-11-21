@@ -30,7 +30,7 @@ public class MyGradeSwitch2 {
 			break;
 		
 		case 5 :
-			System.out.println("Good Grade E");
+			System.out.println("Good : Grade E");
 			break;
 		
 		case 4 :
@@ -38,7 +38,7 @@ public class MyGradeSwitch2 {
 			break;
 		
 		default:
-			System.out.println("Alamak, FAIL!!!");
+			System.out.println("DI SINI RANCAK DI SITU RANCAK. FAIL!!!!!");
 			
 			sc.close();
 		}
