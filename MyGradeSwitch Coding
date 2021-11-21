@@ -1,0 +1,48 @@
+package mySwitch;
+import java.util.Scanner;
+public class MyGradeSwitch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter your grade : ");
+		String str = sc.next();
+		char grade = str.charAt(0);
+		
+		switch(grade) {
+		
+		case 'A':
+			System.out.println("Marks for grade A is >= 90");
+			break;
+		
+		case 'B':
+			System.out.println("Marks for grade B is >= 80 and less than 90");
+			break;
+		
+		case 'C':
+			System.out.println("Marks fo grade C is >=70 and less than 80");
+			break;
+		
+		case 'D':
+			System.out.println("Marks for grade D is >= 60 and less than 70");
+			break;
+		
+		case 'E':
+			System.out.println("Marks for grade E is >=50 and less than 60");
+			break;
+		
+		case 'F':
+			System.out.println("Marks for grade F is <= 40");
+			break;
+		
+		default:
+			System.out.println("invalid grade");
+			
+			sc.close();
+		}
+	}
+
+}
+		
+		
