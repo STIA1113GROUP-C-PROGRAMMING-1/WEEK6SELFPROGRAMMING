@@ -1,0 +1,42 @@
+Output1:
+
+Enter your grade : 
+A
+Marks for grade A is >= 90
+
+Output2:
+
+Enter your grade : 
+B
+Marks for grade B is >= 80 and less than 90
+
+Output3:
+
+Enter your grade : 
+C
+Marks fo grade C is >=70 and less than 80
+
+
+Output4:
+
+Enter your grade : 
+D
+Marks for grade D is >= 60 and less than 70
+
+Output5:
+
+Enter your grade : 
+E
+Marks for grade E is >=50 and less than 60
+
+Output6:
+
+Enter your grade : 
+F
+Marks for grade F is <= 40
+
+Output7:
+
+Enter your grade : 
+G
+invalid grade
